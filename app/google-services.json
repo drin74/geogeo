@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904316179415",
+    "project_id": "geo2-47b8b",
+    "storage_bucket": "geo2-47b8b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904316179415:android:526cfa86566d837419f192",
+        "android_client_info": {
+          "package_name": "com.example.geogeo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCUDFY5eiIwMfgu4Sb-7cHVrcUpP76OYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

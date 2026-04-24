@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoGuessr</string>
+    <string name="title">🌍 Угадайте страну</string>
+    <string name="hint_country">Введите название страны</string>
+    <string name="btn_guess">Проверить</string>
+    <string name="btn_next">Следующий раунд</string>
+    <string name="btn_restart">Играть снова</string>
+    <string name="score_format">Счёт: %d</string>
+    <string name="correct_answer">✅ Правильно! Это %s</string>
+    <string name="wrong_answer">❌ Неверно! Это %s</string>
+    <string name="round_score_format">⭐ Очки: %d</string>
+    <string name="game_over">🏆 Игра окончена!</string>
+    <string name="final_score_format">Ваш счёт: %d из %d</string>
+    <string name="error_empty_country">Введите название страны!</string>
+    <string name="round_format">Раунд %d из %d</string>
+    <string name="content_desc_map">Фотография страны</string>
+    <string name="loading">Загрузка...</string>
+</resources>
