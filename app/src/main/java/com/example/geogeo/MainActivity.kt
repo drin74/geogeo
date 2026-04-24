@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     private var score = 0
     private var gameLocations = listOf<LocationData>() // Будет заполнено случайно
 
-    // 🔹 БОЛЬШЕ СТРАН (15 штук)
+
     private val allLocations = listOf(
         LocationData(
             "Франция",
@@ -178,7 +178,7 @@ class MainActivity : AppCompatActivity() {
 
         startNewGame()
 
-        // 🔹 ИСПРАВЛЕНИЕ: Загружаем самую первую картинку сразу при запуске
+
         loadRound(ivLocation)
 
         btnGuess.setOnClickListener {
@@ -239,10 +239,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // 🔹 ЗАПУСК НОВОЙ ИГРЫ СО СЛУЧАЙНЫМИ СТРАНАМИ
+
     private fun startNewGame() {
         currentRound = 0
-        // Перемешиваем все страны и берём первые 5
+
         gameLocations = allLocations.shuffled().take(5)
         Toast.makeText(this, "Новая игра! Угадывайте страны 🌍", Toast.LENGTH_SHORT).show()
     }
