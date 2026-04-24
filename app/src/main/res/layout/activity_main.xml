@@ -70,7 +70,10 @@
             android:id="@+id/btnGuess"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#03FFDE"
             android:text="@string/btn_guess"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
@@ -127,6 +130,9 @@
             android:layout_height="wrap_content"
             android:text="@string/btn_next"
             android:visibility="gone"
+            android:backgroundTint="#03FFDE"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:paddingStart="32dp"
             android:paddingEnd="32dp"/>
 
